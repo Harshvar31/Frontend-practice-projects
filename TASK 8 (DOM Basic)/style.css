@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    margin: 20px;
+    padding: 20px;
+    font-size: 60px;
+}
+
+#ince{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: crimson 0px 0px 8px;
+}
+
+#dece{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: crimson 0px 0px 8px;
+}
