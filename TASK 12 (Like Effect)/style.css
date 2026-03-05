@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    width: 290px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#card img{
+    height: 320px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px;
+}
+
+#card h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+#love {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: transparent;
+    font-size: 100px;
+    opacity: 0;
+
+    background-image: url(https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147819864.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-size: cover;
+    background-clip: text;
+
+    transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+    transition: all cubic-bezier(.65,1,.77,1.42) 0.3s;
+}
