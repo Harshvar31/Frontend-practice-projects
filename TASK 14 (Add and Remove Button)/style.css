@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 30px;
+}
+
+.elem{
+    background-color: #444;
+    padding: 30px;
+    margin-top: 25px;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 10px;
+}
+
+.elem h2{
+    color: whitesmoke;
+    font-size: 38px;
+}
+
+.elem button{
+    padding: 10px 25px;
+    background-color: royalblue;
+    color: whitesmoke;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.elem button:active{
+    scale: 0.95;
+}
