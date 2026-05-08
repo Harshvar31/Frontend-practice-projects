@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    anchor-name: --someAnchor;
+    /* gap: 10px; */
+}
+
+.tags{
+    padding: 10px 30px ;
+    width: auto;
+    /* background-color: rgb(96, 96, 96); */
+    text-align: center;
+}
+
+.tags:hover{
+    anchor-name: --someAnchor;
+}
+
+a{
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration-line: none;
+}
+
+.anchor {
+    background-color: rgb(55, 55, 55);
+    border-radius: 5px;
+    position: absolute;
+    top: anchor(top);
+    right: anchor(right);
+    left: anchor(left);
+    bottom: anchor(bottom);
+    position-anchor: --someAnchor;
+    transition: all 0.3s linear;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+}
